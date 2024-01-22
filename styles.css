@@ -16,6 +16,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	font-family: "Alfa Slab One", serif;
 }
 
 .postcard-header img {
@@ -32,6 +33,7 @@ body {
 .postcard-body {
 	display: flex;
 	flex-direction: row;
+	font-family: "Rubik", sans-serif;
 }
 
 .body-right {
@@ -49,4 +51,17 @@ body {
 input {
 	border: none;
 	border-bottom: 1px gray solid;
+}
+
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #148fcb;
+	text-decoration: solid;
+	color: white;
+	border-radius: 4px;
 }
